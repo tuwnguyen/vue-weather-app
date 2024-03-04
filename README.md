@@ -27,3 +27,10 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Install modules
+```sh
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+```
