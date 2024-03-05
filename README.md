@@ -34,3 +34,4 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 - Config font link: [gg font](https://fonts.google.com/selection/embed)
+- Using [font-awesome](https://cdnjs.com/libraries/font-awesome)
