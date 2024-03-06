@@ -35,3 +35,8 @@ npx tailwindcss init -p
 ```
 - Config font link: [gg font](https://fonts.google.com/selection/embed)
 - Using [font-awesome](https://cdnjs.com/libraries/font-awesome)
+
+### Search API
+
+- [Mapbox geocoding API](https://docs.mapbox.com/api/search/geocoding/)
+- Using `setTimeout` for lazy search
