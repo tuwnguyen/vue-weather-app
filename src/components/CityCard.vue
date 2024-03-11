@@ -29,6 +29,5 @@ defineProps({
     default: () => {}
   }
 })
-// console.log(':::', defin)
 </script>
 
