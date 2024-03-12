@@ -7,6 +7,9 @@ export default {
         'weather-primary': '#00668A',
         'weather-secondary': '#004E71',
       },
+      // backgroundImage: {
+      //   'custome-weather': "url('/img/new-weather.avif')",
+      // },
     },
     fontFamily: {
       Roboto: ['Roboto, sans-serif'],

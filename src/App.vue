@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen font-Roboto bg-weather-primary">
+  <div class="flex flex-col min-h-screen font-Roboto bg-gradient-to-r from-sky-500 to-indigo-500">
     <SiteNavigation />
     <RouterView v-slot="{ Component }">
       <Transition name="page" mode="out-in">

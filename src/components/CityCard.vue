@@ -1,5 +1,5 @@
 <template>
-  <div class="flex py-6 bg-weather-secondary rounded-md shadow-md cursor-pointer">
+  <div class="flex py-6 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-md shadow-md cursor-pointer">
     <div class="flex flex-col flex-1 px-2">
       <h2 class="text-3xl">{{ city.city }}</h2>
       <h3>{{ city.state }}</h3>

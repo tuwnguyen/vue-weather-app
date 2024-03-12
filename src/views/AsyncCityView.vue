@@ -3,7 +3,7 @@
     <!-- Banner -->
     <div
       v-if="route.query.preview"
-      class="text-white p-4 bg-weather-secondary w-full text-center"
+      class="text-white p-4 bg-gradient-to-r from-sky-500 to-indigo-500 w-full text-center"
     >
       <p>You are currently previewing this city, click the "+" icon to start tracking this city</p>
     </div>

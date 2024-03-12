@@ -58,12 +58,12 @@ const previewCity = (searchResult) => {
       />
       <ul
         v-if="mapboxSearchResults"
-        class="absolute bg-weather-secondary text-white w-full shadow-md py-2 px-1 top-[66px]">
+        class="absolute bg-gradient-to-r from-sky-500 to-indigo-500 text-white w-full shadow-md py-2 px-1 top-[66px]">
         <p v-if="searchError" class="py-2">
           Sorry, something went wrong, please try again
         </p>
         <p v-if="!searchError && mapboxSearchResults.length === 0" class="py-2">
-          No results match your query, trye a different term
+          No results match your query, try a different term
         </p>
         <template v-else>
           <li

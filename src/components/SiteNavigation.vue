@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 bg-weather-primary shadow-lg">
+  <header class="sticky top-0 bg-gradient-to-r from-sky-500 to-indigo-500 shadow-lg">
     <nav 
     class="container flex flex-col sm:flex-row items-center gap-4 text-white py-6"
     >
@@ -11,12 +11,12 @@
       </RouterLink>
       <div class="flex gap-3 flex-1 justify-end">
         <i 
-          class="fa-solid fa-circle-info text-xl hover:text-weather-secondary duration-150 cursor-pointer"
+          class="fa-solid fa-circle-info text-xl hover:text-sky-500 duration-150 cursor-pointer"
           @click="toggleModal"
           ></i>
         <i
           v-if="route.query.preview"
-          class="fa-solid fa-plus text-xl hover:text-weather-secondary duration-150 cursor-pointer"
+          class="fa-solid fa-plus text-xl hover:text-sky-500 duration-150 cursor-pointer"
           @click="addCity"
           ></i>
       </div>
